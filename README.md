@@ -12,7 +12,7 @@
 
 
 <h3 align="left">⭐ Script gratuito </h3>
-<a href="https://discord.gg/sQMqkVH">
+<a href="https://media.discordapp.net/attachments/1016123993603965029/1046553403108638780/Burger_UI.png">
     <img src="https://media.discordapp.net/attachments/1016123993603965029/1046553403108638780/Burger_UI.png" alt="Banner" width="1071" height="651">
   </a>
 <br />
