@@ -1,0 +1,374 @@
+@font-face {
+    font-family: flv;
+    src: url(assets/fonts/Keqima.ttf)
+}
+
+@font-face {
+    font-family: Azonix;
+    src: url(assets/fonts/azonix-webfont.ttf) format("opentype")
+}
+
+@font-face {
+    font-family: DINPro;
+    src: url(assets/fonts/DINPro-Regular.ttf) format("opentype")
+}
+
+@font-face {
+    font-family: "DINPro Medium";
+    src: url(assets/fonts/DINPro-Medium.ttf) format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/fonts/Montserrat-Bold.ttf) format("opentype")
+}
+
+@font-face {
+    font-family: MontserratLight;
+    src: url(assets/fonts/Montserrat-Light.ttf) format("opentype")
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url(assets/fonts/Montserrat-Regular.ttf) format("opentype")
+}
+
+body {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 2.6%;
+    border-radius: 20px;
+    left: 2.6%;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    background: rgba(0, 0, 0, .008)
+}
+
+* {
+    user-select: none;
+    box-sizing: border-box
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background: 0 0
+}
+
+p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    font-size: small;
+    color: rgba(255, 255, 255, .7)
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 0;
+    margin-left: 0
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-style: none;
+    color: #fff
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%
+}
+
+.actionmenu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(255, 128, 8), rgb(255, 200, 55));
+}
+
+.mascara {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+    filter: blur(50px);
+    background: 0 0
+}
+
+.menu {
+    width: 100%;
+    height: 10%;
+    background-color: linear-gradient(to right, rgb(255, 128, 8), rgb(255, 200, 55));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.esctitle {
+    font-size: .9vw;
+    float: left;
+    color: #fff;
+    font-family: MontserratLight;
+    position: relative;
+    right: -42vw
+}
+
+.esctitle span {
+    background: #90900d;
+    border-radius: .3vw;
+    padding: 0 .5vw
+}
+
+.carteira {
+    font-size: 1vw;
+    float: left;
+    color: #fff;
+    font-family: MontserratRegular;
+    font-weight: 600;
+    letter-spacing: .05vw;
+    position: relative;
+    left: 28vw
+}
+
+.titleMenu {
+    position: relative;
+    font-size: 2vw;
+    padding: 1vw;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #fff
+}
+
+
+/*.logo {
+    position: relative;
+    top: -15px;
+    left: -100px;
+    width: 95px;
+    height: 90px;
+}*/
+
+.parte2 {
+    display: flex;
+    width: 100%;
+    height: 100%
+}
+
+.categorias {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    right: 10px
+}
+
+.sessaoCategorias {
+    width: 100%;
+    height: 100%
+}
+
+.secCat {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%
+}
+
+.secCat .catSessao {
+    width: 100px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 10px
+}
+
+.itens {
+    position: relative;
+    width: 81vw;
+    height: 50vw;
+    border-radius: .5vw
+}
+
+.sessaoItens {
+    width: 100%;
+    height: 100%
+}
+
+.sessaoItens .conteudoSessao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: auto
+}
+
+.sessaoItens .conteudoSessao .itemSessao {
+    width: 9.8vw;
+    height: 14vw;
+    border-radius: .2vw;
+    margin: .5vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+    background-color: rgba(0, 0, 0, .1);
+    border: .01vw solid #eee;
+    -webkit-transition: background-color .2s linear;
+    -ms-transition: background-color .2s linear;
+    transition: background-color .2s linear
+}
+
+.sessaoItens .conteudoSessao .itemSessao:hover {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.item-info {
+    width: 100%;
+    height: 85%
+}
+
+.fotoItem {
+    width: 5vw;
+    height: 5vw;
+    margin-left: 2vw
+}
+
+.tituloItem {
+    float: left;
+    width: 100%;
+    height: 2vw;
+    color: #fff;
+    font-size: .82vw;
+    font-family: Roboto;
+    padding-left: .5vw;
+    padding-top: 1vw;
+    border-top: .1vw solid #eee
+}
+
+.descricaoItem {
+    float: left;
+    width: 100%;
+    height: 2vw;
+    color: #fff;
+    font-size: .6vw;
+    margin-left: .5vw;
+    margin-top: .4vw
+}
+
+.sobreoitem {
+    float: left;
+    width: 100%;
+    height: 9px;
+    color: #fff;
+    font-size: .6vw;
+    margin-left: .5vw;
+    margin-top: -11px;
+}
+
+.valorItem {
+    float: left;
+    width: 100%;
+    height: 2vw;
+    color: #890000;
+    font-size: .7vw;
+    font-weight: 700;
+    font-family: Roboto;
+    margin-left: .5vw;
+    margin-top: .4vw
+}
+
+.pagamento {
+    width: 100%;
+    height: 2.1vw;
+    border-radius: 0 0 .15vw .15vw;
+    background-color: #a259595b;
+    color: #ffffff;
+    font-size: .7vw;
+    font-family: Roboto;
+    -webkit-transition: background-color .2s linear;
+    -ms-transition: background-color .2s linear;
+    transition: background-color .2s linear
+}
+
+.pagamento:hover {
+    background-color: rgba(255, 0, 0, 0.5)
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 1px;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 10px
+}
+
+.sidenav {
+    width: 19vw;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    overflow-x: hidden;
+    font-family: MontserratLight;
+    border-bottom: 3vw solid #05b5ff
+}
+
+.bottomblue {
+    position: relative;
+    top: 23vw;
+    width: 100%;
+    height: 10%;
+    background: #05b5ff
+}
+
+.dropdown-btn,
+.sidenav a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: #d0d0d0;
+    display: block;
+    border: none;
+    background: 0 0;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: 0;
+    font-family: MontserratLight;
+    padding: 0 1vw
+}
+
+.sidenav button {
+    height: 4%;
+    font-size: 1.2vw;
+    cursor: pointer;
+    color: #fff;
+    font-family: MontserratLight
+}
+
+.dropdown-btn:hover,
+.sidenav a:hover {
+    color: #fff;
+    font-family: MontserratLight
+}
